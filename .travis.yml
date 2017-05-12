@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: XKR4ENsazBp49UF4bWEqpqd+rCICvtxx/F2lhJJYAZyA82AdYzPylukAfthfYzFY1yhu6auBUyNcrHdZUJDQlks4VyaaIqFimxtO748w1WUIuW8ZQ80jBl2OjmpY3LTasEQ6bh0uH9kjYAQTkixZSXnszd1CCanbALWN+O+2ItkHI//BDxbBTGcokGQtl/5bp/XZFNwR9LkJaXzZbbo0ccTZKzGmXuuwY7AxSYVQBxMeKx7De4naDTJ8BVagxE99kCjRl4b+pSoJj75loK5yAMYRuqtcUoD4LpZeyUw9PDc61w4mtTQpHE4uLNgHSwXbqvgSXENXiHAXLQBvPQ6MZjfMDPeJuihjTj+eWCM7kesOYHi/9bYJU8bYuWtACVOiCiAvd04DkVRgLYhmkukOHtNVylfXnGfszzueXIA8+bcunB79NGG+bNo6qaXSYowKh7lZYgqq8yzDB5IUzdkTbbxjT868MmRbMsw6F1PdQl1R3FTmb/ymonRDIyCKik6/MuL+hNwrRgYXlU6LoZgB9bjvq6uX0shVQvCLvv07Eca6i/OFoM+3n4IAbj5n025ErszxDXPssJHWcWhVEOBXVLHhqYyMt4d+810Rr1fY+8XHhtmTHfszsUH0svhR8c/jAuHvpCf7HLIDxmv1E5bcBz1WPmR4xdIg8NMhu8IjR/I=
+  app: evening-brushlands-23753
+  on:
+    repo: martinseanhunt/node-blog
