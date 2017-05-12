@@ -26,7 +26,7 @@ router.post('/', jsonParser, (req, res) => {
 			return res.status(400).send(message);
 		}
 	});
-	const post = BlogPosts.create(req.body.title, req.body.content, req.body.author);
+	const post = BlogPosts.create(req.body.title, req.body.content, req.body.author, req.body.publishDate);
 	return res.status(200).json(post);
 });
 
